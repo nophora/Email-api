@@ -14,7 +14,6 @@ const cookieParser = require('cookie-parser')
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-const MONGODB_URL = `mongodb+srv://siphosethu:728220145Nhapho%40@platformstore.al5ma.mongodb.net/<dbname>?retryWrites=true&w=majority`
 
 
 mongoose.connect(MONGODB_URL|| 'mongodb://localhost/platformmovies', {
